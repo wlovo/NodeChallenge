@@ -1,13 +1,32 @@
 <html>
 
 <head>
-  <title>Express</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Chiedo's Node Challenge</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script src="javascripts/getTimes.js"></script>
 </head>
 
 <body>
-  <h1>Express</h1>
-  <p>Welcome to Express</p>
+
+<!-- Hello World text -->
+<div class="text-center container-fluid">
+    <h1>Hello World</h1>
+
+    <!-- New York, California and Colorado Times -->
+
+    <ul class="list-group">
+        <li class="list-group-item"><p>New York: <span class="timezone" data-timezone="America/New_York"></span></p>
+        </li>
+        <li class="list-group-item"><p>California: <span class="timezone" data-timezone="America/Los_Angeles"></span>
+        </p></li>
+        <li class="list-group-item"><p>Colorado: <span class="timezone" data-timezone="America/Denver"></span></p></li>
+    </ul>
+</div>
+
 </body>
 
 </html>
